@@ -1,0 +1,5 @@
+valor1 = int(input('Digite um número inteiro para ser classificado em ordem crescente: '))
+valor2 = int(input('Digite outro número inteiro para ser classificado em ordem crescente: '))
+if valor1 > valor2: print(f'Em ordem crescente é ({valor2}, {valor1}).')
+elif valor2 > valor1: print(f'Em ordem crescente é ({valor1}, {valor2}).')
+else: print(f'Não tem ordem ({valor1}, {valor2}).')
